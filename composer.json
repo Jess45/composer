@@ -1,0 +1,19 @@
+{
+    "name": "wilder2/composer",
+    "description": "Quête Composer",
+    "authors": [
+        {
+            "name": "Jessica Salvat",
+            "email": "jsalvat7@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
